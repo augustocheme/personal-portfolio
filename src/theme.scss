@@ -1,0 +1,38 @@
+/* 
+ * Purpose:
+ * Assign height: "100%" to
+ * html, body, #___gatsby &  
+ * div with role="group"
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+div[role="group"][tabindex] {
+  height: 100%;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
